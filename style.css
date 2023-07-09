@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.todo-container{
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-row{
+    display: flex;
+    align-items: center;
+}
+
+.search-row .fa-search{
+    position:absolute;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+input[type="text"]{
+    width: 70%;
+    color: #fff;
+    background-color:gray;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+}
+
+input[type="text"]::placeholder{
+    color: #fff;
+    padding-left: 1rem;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+.searchInput,.todoInput{
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.taskBtn{
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 500;
+    background-color: #0000f9f9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul{
+    list-style-type: none;
+  
+}
+
+li,span{
+    margin: 1rem 2rem;
+    width: 100%;
+}

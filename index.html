@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Todo app</h1>
+    <div class="todo-container">
+        <form id="todoForm">
+            <div class="search-row">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search text" id="searchInput" class="searchInput">            
+            </div>
+            
+            <div class="row">
+                <input type="text" 
+                placeholder="Enter a text here" 
+                id="todoInput"
+                class="todoInput"> 
+                <button 
+                type="submit"
+                class="taskBtn">Add Task</button>
+            </div>
+        </form>
+           
+        <ul id="todoList">
+        </ul>
+        <button 
+            type="button"
+            id="deleteTask">
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </button>
+    </div>
+</body>
+
+<script src="./main.js"></script>
+</html>
